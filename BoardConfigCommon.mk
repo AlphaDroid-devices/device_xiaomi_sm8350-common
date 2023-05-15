@@ -187,11 +187,6 @@ SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/public
 BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/dolby
 
-# Soong
-SOONG_CONFIG_NAMESPACES += xiaomiSm8350Vars
-SOONG_CONFIG_xiaomiSm8350Vars += vibrator_use_effect_stream
-SOONG_CONFIG_xiaomiSm8350Vars_vibrator_use_effect_stream ?= false
-
 # SurfaceFlinger
 TARGET_USE_AOSP_SURFACEFLINGER := true
 
