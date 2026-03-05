@@ -12,6 +12,9 @@
     <!-- PowerOffAlarmService -->
     <bool name="config_powerOffAlarmEnabled">true</bool>
 
+    <!-- Preferred max refresh rate at AOD & Ambient Display, if supported by the display. -->
+    <integer name="config_aodMaxRefreshRate">90</integer>
+
     <!-- This string array should be overridden by the device to present a list of radio
          attributes.  This is used by the connectivity manager to decide which networks can coexist
          based on the hardware -->
